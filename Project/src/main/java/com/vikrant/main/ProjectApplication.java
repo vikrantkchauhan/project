@@ -3,6 +3,7 @@ package com.vikrant.main;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+//Main class
 @SpringBootApplication
 public class ProjectApplication {
 
@@ -11,6 +12,7 @@ public class ProjectApplication {
 		SpringApplication.run(ProjectApplication.class, args);
 		System.out.println("Hello World");
 		System.out.println("Server started");
+		
 		
 	}
 
