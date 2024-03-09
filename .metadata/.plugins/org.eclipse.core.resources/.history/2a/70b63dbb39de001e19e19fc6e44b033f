@@ -1,0 +1,6 @@
+package com.vikrant.demo.controllers;
+
+@RestController
+public class BasicController {
+
+}

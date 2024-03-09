@@ -1,0 +1,15 @@
+package com.vikrant.demo.controllers;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@Componenet
+public class BasicController {
+	
+	@GetMapping("/basic")
+	public String basicAPI() {
+		return "Hello from basic API";
+	}
+
+}
